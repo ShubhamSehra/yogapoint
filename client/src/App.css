@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+.set-text{
+ 
+  text-align: center;
+  position: absolute;
+  top: 30vh;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.9);
+  filter: drop-shadow(4px 5px 4px #191919c4);
+  
+}
+
+.head-things{
+  height: 85vh;
+}
+
+.top{
+  position: relative;
+  height: 85vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0 -9.8rem;
+  
+
+}
+
+.set-goal {
+  
+  background-color: #93f55ee0;
+  font-family: 'Times New Roman', Times, serif
+}
+
+/***********SECOUND VIEW***********/
+
+.containerz img{
+ 
+  width: 100%;
+    /* height: ; */
+   position: relative;
+}
+.containerz h1 {
+  position: absolute;
+  top: 130vh;
+  right: 12rem;
+  column-gap: 40px;
+}
+.containerz h2 {
+  position: absolute;
+  top: 146vh;
+  right: 12rem;
+  column-gap: 40px;
+
+}
+.containerz button {
+  position: absolute;
+  top: 160vh;
+  right: 12rem;
+  column-gap: 40px;
+
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+  .set-text {
+    top: 10vh;
+  width: 100%;
+  }
+  .head-things{
+    height: 56.5vh;
+  }
+  .set-goal{
+    font-size: 20px;
+  }
+}
